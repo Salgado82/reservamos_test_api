@@ -87,17 +87,25 @@ GEM
     debug (1.9.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.7.1)
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
+    json (2.3.0)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -111,6 +119,7 @@ GEM
     mini_portile2 (2.8.5)
     minitest (5.20.0)
     msgpack (1.7.2)
+    multi_xml (0.6.0)
     mutex_m (0.2.0)
     net-imap (0.4.8)
       date
@@ -200,6 +209,9 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  dotenv-rails
+  httparty
+  json
   puma (>= 5.0)
   rails (~> 7.1.2)
   sqlite3 (~> 1.4)
