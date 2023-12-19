@@ -19,3 +19,5 @@
 !/tmp/storage/.keep
 
 /config/master.key
+
+/spec/*.txt
